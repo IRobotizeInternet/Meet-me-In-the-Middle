@@ -35,7 +35,12 @@ Often pages can be simple as user login page or complex as Facebook homepage. Wh
 
 
 3.	One-to-One mapping between application page and automation page (Code).
-Each DOM Element in the application page should correspond to only one DOM property in automation code library.
+* Each DOM Element in the application page should correspond to only one DOM property in automation code library.
+* We cannot emphasise enough to ensure there should be only one and only one xpath for a given DOM object. 
+
+**Here is the example:** [Robotize Facebook](https://github.com/IRobotizeInternet/Facebook/blob/master/Robotize.BLL/App/LoggedIn/Pages/Home/PageHome.cs) Home page
+
+![image](https://user-images.githubusercontent.com/83523058/117241075-25e8da80-ade7-11eb-8e7b-ce571215d252.png)
 
 4.	All DOM elements of the page should be implemented as properties of the UI page. 
 For instance, a button should be implemented as a Button property. In order to click it, one would access that property and perform one of the available click actions available for that Button class. By returning the DOM element as a property, it will provide more options to the caller of the property.
