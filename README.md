@@ -43,7 +43,12 @@ Often pages can be simple as user login page or complex as Facebook homepage. Wh
 ![image](https://user-images.githubusercontent.com/83523058/117241075-25e8da80-ade7-11eb-8e7b-ce571215d252.png)
 
 4.	All DOM elements of the page should be implemented as properties of the UI page. 
-For instance, a button should be implemented as a Button property. In order to click it, one would access that property and perform one of the available click actions available for that Button class. By returning the DOM element as a property, it will provide more options to the caller of the property.
+* A button/textbox etc should be implemented as a property. In order to click on it, when writing test the user can easily access all the available properties of the DOM object  and perform necessary action. By returning the DOM element as a property instead of providing specific operation, will provide more options when we start writing the test.
+
+**Here is the example:** [Robotize Facebook](https://github.com/IRobotizeInternet/Facebook/blob/master/Robotize.BLL/App/LoggedIn/Pages/Home/PageHome.cs) All the DOM objects available on the Facebook Home page as provided as property. 
+
+![image](https://user-images.githubusercontent.com/83523058/117241533-3b123900-ade8-11eb-80c3-6faad4ca0b96.png)
+
 
 **Above guidelines are used for develop following projects:**
 * [Robotize Facebook](https://github.com/IRobotizeInternet/Facebook)
