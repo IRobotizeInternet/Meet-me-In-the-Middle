@@ -52,5 +52,5 @@ Often pages can be simple as user login page or complex as Facebook homepage. Wh
 ![image](https://user-images.githubusercontent.com/83523058/117241533-3b123900-ade8-11eb-80c3-6faad4ca0b96.png)
 
 
-**Above guidelines are used for develop following projects:**
+**Following projects are developed using AdvancedPOM:**
 * [Robotize Facebook](https://github.com/IRobotizeInternet/Facebook)
