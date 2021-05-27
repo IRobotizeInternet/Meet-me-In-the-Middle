@@ -1,4 +1,4 @@
-# AdvancedPOM
+# Meet me In the Middle (MIM)
 Here we put together some guidelines on how to use page object model for large scale complex projects. 
 We have modified page object model methodology to achieve better maintenance and easy scalability for large scale applications. 
 
