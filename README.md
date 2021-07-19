@@ -54,3 +54,4 @@ Often pages can be simple as user login page or complex as Facebook homepage. Wh
 
 **Following projects are developed using AdvancedPOM:**
 * [Robotize Facebook](https://github.com/IRobotizeInternet/Facebook)
+* [RuRay] (https://github.com/IRobotizeInternet/RuRay)
