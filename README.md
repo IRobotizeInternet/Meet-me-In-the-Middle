@@ -2,7 +2,7 @@
 Here we put together some guidelines on how to use page object model for large scale complex projects. 
 We have modified page object model methodology to achieve better maintenance and easy scalability for large scale applications. 
 
-<h2>Guidelines to design large scale automation with advances page object model pattern</h2>
+<h2>Guidelines to design large scale automation with advanced page object model pattern</h2>
 
 **This methodology will provide following benifits:**
 *	Provide better interface to interact with the page DOM objects.
